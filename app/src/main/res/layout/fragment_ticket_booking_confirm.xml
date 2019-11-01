@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.fragments.TicketBookingConfirmFragment"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="8dp"
+       android:layout_marginTop="8dp"
+       android:layout_marginRight="8dp"
+       android:layout_marginBottom="60dp"
+       android:background="@drawable/button_coners"
+       android:orientation="vertical"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toTopOf="parent">
+
+      <TextView
+          android:id="@+id/train_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="16dp"
+          android:gravity="center"
+          android:textColor="#FFFFFF"
+          android:textSize="18sp" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="150dp"
+          android:layout_marginTop="8dp"
+          android:baselineAligned="false"
+          android:orientation="horizontal"
+          android:weightSum="10">
+
+         <RelativeLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/train_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/ic_group_756" />
+         </RelativeLayout>
+
+         <android.support.constraint.ConstraintLayout
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="8">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+               <android.support.constraint.ConstraintLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1">
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="20dp"
+                      android:orientation="vertical"
+                      android:weightSum="2"
+                      app:layout_constraintLeft_toLeftOf="parent"
+                      app:layout_constraintRight_toRightOf="parent"
+                      app:layout_constraintTop_toTopOf="parent">
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Origin"
+                         android:textColor="@android:color/white" />
+
+                     <TextView
+                         android:id="@+id/start_station"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Colombo Fort"
+                         android:textColor="@android:color/white" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:orientation="vertical"
+                      android:weightSum="2"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintLeft_toLeftOf="parent"
+                      app:layout_constraintRight_toRightOf="parent">
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Destination"
+                         android:textColor="@android:color/white" />
+
+                     <TextView
+                         android:id="@+id/end_station"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:text="Nuwaraeliya"
+                         android:textColor="@android:color/white" />
+                  </LinearLayout>
+               </android.support.constraint.ConstraintLayout>
+               <!--            </LinearLayout>-->
+
+               <android.support.constraint.ConstraintLayout
+                   android:layout_width="0dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1">
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="20dp"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:weightSum="2"
+                      app:layout_constraintLeft_toLeftOf="parent"
+                      app:layout_constraintRight_toRightOf="parent"
+                      app:layout_constraintTop_toTopOf="parent">
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Departure"
+                         android:textColor="@android:color/white" />
+
+                     <TextView
+                         android:id="@+id/departure_at"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="5:30 am"
+                         android:textColor="@android:color/white" />
+                  </LinearLayout>
+
+                  <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginBottom="20dp"
+                      android:gravity="center"
+                      android:orientation="vertical"
+                      android:weightSum="2"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintLeft_toLeftOf="parent"
+                      app:layout_constraintRight_toRightOf="parent">
+
+                     <TextView
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="Distance"
+                         android:textColor="@android:color/white" />
+
+                     <TextView
+                         android:id="@+id/distance"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="73km"
+                         android:textColor="@android:color/white" />
+                  </LinearLayout>
+               </android.support.constraint.ConstraintLayout>
+            </LinearLayout>
+
+         </android.support.constraint.ConstraintLayout>
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:paddingLeft="32dp"
+          android:paddingRight="32dp"
+          android:paddingBottom="8dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:textSize="16dp"
+             android:layout_weight="1"
+             android:paddingLeft="42dp"
+             android:text="Train Type:" />
+
+         <TextView
+             android:id="@+id/train_type"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="16dp"
+             android:paddingLeft="42dp"
+             android:text="Intercity" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:paddingLeft="32dp"
+          android:paddingRight="32dp"
+          android:paddingTop="8dp"
+          android:paddingBottom="8dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:textSize="16dp"
+             android:layout_weight="1"
+             android:paddingLeft="42dp"
+             android:text="Price:" />
+
+         <TextView
+             android:id="@+id/price"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="16dp"
+             android:paddingLeft="42dp"
+             android:text="Rs.0.00" />
+      </LinearLayout>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:paddingLeft="32dp"
+          android:paddingRight="32dp"
+          android:paddingTop="8dp"
+          android:paddingBottom="8dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:textSize="16dp"
+             android:layout_weight="1"
+             android:paddingLeft="42dp"
+             android:text="Date:" />
+
+         <TextView
+             android:id="@+id/date"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="16dp"
+             android:paddingLeft="42dp"
+             android:text="2019-10-16" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:weightSum="2"
+          android:paddingLeft="32dp"
+          android:paddingRight="32dp"
+          android:orientation="horizontal">
+
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:textSize="16dp"
+             android:layout_weight="1"
+             android:gravity="center_vertical"
+             android:paddingLeft="42dp"
+             android:text="Class:" />
+
+         <RadioGroup
+             android:id="@+id/radio_group"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:weightSum="3"
+             android:paddingLeft="32dp"
+             android:orientation="vertical"
+             android:layout_weight="1" >
+
+            <RadioButton
+                android:id="@+id/firstRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:visibility="gone"
+                android:text="1st Class" />
+
+            <RadioButton
+                android:id="@+id/secondRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:visibility="gone"
+                android:text="2nd Class" />
+
+            <RadioButton
+                android:id="@+id/thirdRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="2dp"
+                android:visibility="gone"
+                android:text="3rd Class" />
+         </RadioGroup>
+
+      </LinearLayout>
+      <Button
+          android:id="@+id/confirm_btn"
+          android:layout_width="match_parent"
+          android:layout_height="30dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:background="@drawable/schedule_search_button"
+          android:text="Confirm"
+          android:textSize="16dp"
+          />
+
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">justGo</string>
+    <string name="button1_name">Staff</string>
+    <string name="button2_name">Passenger</string>
+    <string name="text_train_schedule">Schedule</string>
+    <string name="notification_text">Tracking, tap to cancel</string>
+    <string name="local_service_started">Tracking, tap to cancel</string>
+    <string name="local_service_stopped">Tracking service stopped</string>
+    <string name="local_service_label">Train Tracking</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--login screen-->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="camera_permision_msg">This app needs access to your camera amp; storage so that it can read photos.</string>
+    <string name="read_file">This app needs access to your file storage so that it can read photos.</string>
+    <string name="new_password_required">Password is required</string>
+    <string name="confirm_required">Confirm your password</string>
+    <string name="password_invalid">Password should contain at least 6 characters</string>
+    <string name="confirm_password_invalid">Incorrect confirm password</string>
+    <string name="save">Save</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+
+    <!--signup screen-->
+
+
+    <string name="pick_image_intent_text">choose image</string>
+    <string name="todo">TODO</string>
+
+</resources>

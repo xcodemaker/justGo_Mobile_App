@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_find_train_for_share"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="Find Train"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_share_location"
+        android:enabled="true"
+        android:icon="@drawable/ic_location_share"
+        android:title="Share Location"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_more_driver"
+        android:enabled="true"
+        android:icon="@drawable/ic_more"
+        android:title="More"
+        app:showAsAction="ifRoom" />
+</menu>

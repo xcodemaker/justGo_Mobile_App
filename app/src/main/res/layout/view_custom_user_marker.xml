@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:foreground="@drawable/ic_iconfinder_icon"
+    android:background="@drawable/ic_iconfinder_icon">
+
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@null"
+        android:src="@drawable/ic_tracker" />
+</FrameLayout>

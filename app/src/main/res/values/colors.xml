@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#2A2E43</color>
+    <color name="colorPrimaryDark">#01113D</color>
+    <color name="colorAccent">#5773FF</color>
+    <color name="grey">#454F63</color>
+    <color name="grey_placeholder">#959DAD</color>
+    <color name="google_button">#E53565</color>
+    <color name="facebook_button">#3578E5</color>
+    <color name="primary_button">#3ACCE1</color>
+
+    <color name="black">#000000</color>
+    <color name="blue">#4169E1</color>
+    <color name="sign_up_password_text_color">#ff2e50</color>
+
+</resources>
